@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+  }
+
+
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-bottom: 2px solid #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .nav-text {
+    font-size: 20px;  
+  }
+  .big-letter {
+    font-size: 2em;
+    vertical-align: baseline;
+  }
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #132633;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #0055a4;
+    background-color: rgba(0, 119, 204, 0.4);
+  }
+  
+  /* Main content styles */
+/* Add the styles for the welcome section */
+#welcome {
+    height: 75vh; /* Set the height to fill the viewport */
+    background-image: url('./img/achtergrondwelcome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem; /* Add padding to the top and left */
+  }
+  
+  #welcome h1 {
+    
+    margin-left: 20px;
+    font-size: 4rem; /* Adjust the font size */
+    color: #141313; /* Set the text color to white or any color that contrasts with the background image */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+    
+  }
+  #quote {
+    border-bottom: 2px solid #1f323f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline-flex; 
+    width: 400px;  /*line width and text */
+    margin-top: -1.8rem;
+  }
+
+
+  main {
+    padding: 2rem;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent white background */
+
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #1f323f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  /* About section styles */
+  #about p {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .about-text {
+    flex: 1;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .profile-picture {
+    flex: 0 0 150px; /* Adjust the width of the profile picture container */
+  }
+  
+  .profile-picture img {
+    margin-top: 70px;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%; /* Optional: to create a circular profile picture */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-top: 2px solid #0077cc;
+  }
+  
