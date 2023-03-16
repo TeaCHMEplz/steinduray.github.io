@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,44 +8,96 @@
 </head>
 <body>
   <header>
-    <div class="logo">
+    <div class="logo" id="scrollToTop">
       <img src="./img/logosodwithoutback.png" alt="Logo SOD (Stein Olaf Duray)">
     </div>
     <nav>
-      <ul class="nav-text">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#work">WORK</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+      <nav>
+        <ul class="nav-text">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
     </nav>
   </header>
   <main>
-    <section id="welcome">
+    <section id="welcome">  
         <h1 >STEIN <BR> DURAY.</h1>
         <h2 id="quote">Innovator Artist and Maverick.</h2>    
         
         
       </section>
-    <section id="about">
-        <div class="about-content">
-          <div class="about-text">
-            <h2>About Me</h2>
-            <p><strong><sup class="big-letter">H</sup></strong>ello!
-              My name is Stein Duray, a 19-year-old web developer and designer based in the vibrant city of Amsterdam. I have been passionately coding and honing my skills for the past 3 years, with a strong focus on creating visually appealing and user-friendly websites.
-  
-              As a tech enthusiast, I love keeping up with the latest trends and incorporating new technologies into my projects. My diverse work experience includes bartending, sales, and design, which has given me a unique perspective on various industries and the ability to adapt to different environments.
-  
-              My ultimate dream is to travel the world while doing what I love: coding and designing websites that make a difference. I'm excited to take on new challenges and continuously grow both personally and professionally. Let's collaborate and create something amazing together!
-            </p>
-            <!-- Add your content here -->
+      <section>
+        <div id="about">
+          <div class="about-wrapper">
+            <div class="about-headline">
+              <h2>About Me</h2>
+              <div class="text-container">
+              <p><strong><sup class="big-letter">H</sup></strong>ello!
+                My name is Stein Duray, a 19-year-old web developer and designer based in the vibrant city of Amsterdam. I have been passionately coding and honing my skills for the past 3 years, with a strong focus on creating visually appealing and user-friendly websites.
+            
+                As a tech enthusiast, I love keeping up with the latest trends and incorporating new technologies into my projects. My diverse work experience includes bartending, sales, and design, which has given me a unique perspective on various industries and the ability to adapt to different environments.
+            
+                My ultimate dream is to travel the world while doing what I love: coding and designing websites that make a difference. I'm excited to take on new challenges and continuously grow both personally and professionally. Let's collaborate and create something amazing together!
+              </p>
+            </div>
           </div>
           <div class="profile-picture">
             <img src="./img/63011.png" alt="Your Profile Picture">
           </div>
         </div>
+      </div>
+    </section>
+      <section id="work">
+        <h2>My Work</h2>
+        <div class="project-widgets-container">
+          <div style="background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg)" class="project-widget">
+            <div style="color: white; background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg);" class="widget-side widget-front">
+              <!-- Front side content -->
+              <h3 class="project-title">E-COM Inventory Tracker</h3>
+              <p class="project-description">Streamline multi-channel inventory tracking with our app that consolidates stock data from platforms like Amazon and Bol.com for efficient eCommerce management.</p>
+            </div>
+            <div class="widget-side widget-back">
+              <!-- Back side content -->
+              <p style="color: white;  background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg)" class="project-description-long">Effortlessly manage inventory with our innovative app, consolidating stock tracking across eCommerce giants like Amazon and Bol.com. Experience real-time data consolidation, automated syncing, and powerful analytics tools for efficient multi-channel control, informed decision-making, and supply chain optimization. Embrace this comprehensive solution to streamline your online business and drive growth.</p>
+            </div>
+          </div>
+          <div class="project-widget">
+            <div class="widget-side widget-front">
+              <!-- Front side content -->
+              <h3 class="project-title">YourSilence E-COM store</h3>
+              <p class="project-description">Elevate your online shopping experience with this feature-rich eCommerce store, offering seamless payment options, AI-driven customer support, and flexible monthly payment plans.</p>
+            </div>
+            <div class="widget-side widget-back">
+              <!-- Back side content -->
+              <p class="project-description-long">Discover a new level of online shopping with this expertly designed eCommerce store, tailored to meet the needs of both businesses and consumers. Our platform integrates smooth payment processing and multiple payment options, including secure monthly payment plans for added flexibility. Enhance customer experience with our innovative AI-driven support system that quickly responds to inquiries, providing real-time assistance for a seamless shopping journey. Trust our cutting-edge solution to elevate your brand and create a memorable online presence.</p>
+            </div>
+          </div>
+          <div class="project-widget">
+            <div class="widget-side widget-front">
+              <!-- Front side content -->
+              <h3 class="project-title">Marketing App</h3>
+              <p class="project-description">Effortlessly enhance your marketing with an intuitive app that resizes images, incorporates logos, highlights discounts, and embeds social icons, crafting compelling visuals for increased brand engagement.</p>
+            </div>
+            <div class="widget-side widget-back">
+              <!-- Back side content -->
+              <p class="project-description-long"></p>
+            </div>
+          </div>
+          <div class="project-widget">
+            <div class="widget-side widget-front">
+              <!-- Front side content -->
+              <h3 class="project-title">MyNotes</h3>
+              <p class="project-description">An eco-friendly e-ink tablet designed to revolutionize education by replacing traditional paper-based writing with a reusable, digital solution that enhances learning while reducing environmental impact.</p>
+            </div>
+            <div class="widget-side widget-back">
+              <!-- Back side content -->
+              <p class="project-description-long">A more detailed description of the project.</p>
+            </div>
+          </div>
+        </div>
       </section>
-    <section id="work">
-      <h2>My Work</h2>
       <!-- Add your content here -->
     </section>
     <section id="contact">
@@ -56,5 +108,6 @@
   <footer>
     <p>&copy; 2023 Stein Duray. All rights reserved. Designed with ♥️ in Amsterdam.</p>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>
