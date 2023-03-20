@@ -29,10 +29,9 @@
         
       </section>
       <section>
+        <h2>About Me</h2>
         <div id="about">
           <div class="about-wrapper">
-            <div class="about-headline">
-              <h2>About Me</h2>
               <div class="text-container">
               <p><strong><sup class="big-letter">H</sup></strong>ello!
                 My name is Stein Duray, a 19-year-old web developer and designer based in the vibrant city of Amsterdam. I have been passionately coding and honing my skills for the past 3 years, with a strong focus on creating visually appealing and user-friendly websites.
@@ -42,67 +41,132 @@
                 My ultimate dream is to travel the world while doing what I love: coding and designing websites that make a difference. I'm excited to take on new challenges and continuously grow both personally and professionally. Let's collaborate and create something amazing together!
               </p>
             </div>
-          </div>
-          <div class="profile-picture">
+          
+          <div style="position: right right;"  class="profile-picture">
             <img src="./img/63011.png" alt="Your Profile Picture">
           </div>
         </div>
+        </div>
       </div>
-    </section>
-      <section id="work">
+   
+    <section id="work">
         <h2>My Work</h2>
         <div class="project-widgets-container">
-          <div style="background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg)" class="project-widget">
-            <div style="color: white; background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg);" class="widget-side widget-front">
+          <div style="background: url(./img/inventoryman.jpg); background-size: 110%;"  class="project-widget">
+            <div style="color: rgb(0, 0, 0);  background-position: center center; background-size: 125%;" class="widget-side widget-front">
               <!-- Front side content -->
               <h3 class="project-title">E-COM Inventory Tracker</h3>
-              <p class="project-description">Streamline multi-channel inventory tracking with our app that consolidates stock data from platforms like Amazon and Bol.com for efficient eCommerce management.</p>
+              <p class="project-description">Multi-channel inventory tracking with our app that consolidates stock data from platforms like Amazon and Bol.com for efficient eCommerce management.</p>
+              <p class="hoverMore">See More</p> 
             </div>
             <div class="widget-side widget-back">
               <!-- Back side content -->
-              <p style="color: white;  background: url(./img/H7efaa717c6e748369fb9ecb5b207194fI.jpeg)" class="project-description-long">Effortlessly manage inventory with our innovative app, consolidating stock tracking across eCommerce giants like Amazon and Bol.com. Experience real-time data consolidation, automated syncing, and powerful analytics tools for efficient multi-channel control, informed decision-making, and supply chain optimization. Embrace this comprehensive solution to streamline your online business and drive growth.</p>
+              <p style="color: rgb(0, 0, 0);  background: transparent;" class="project-description-long">Effortlessly manage inventory with our innovative app, consolidating stock tracking across eCommerce giants like Amazon and Bol.com. Experience real-time data consolidation, automated syncing, and powerful analytics tools for efficient multi-channel control, informed decision-making, and supply chain optimization. Embrace this comprehensive solution to streamline your online business and drive growth.</p>
+              <button id="moreInfoBtn4">More Info</button>
             </div>
           </div>
-          <div class="project-widget">
+          <div style="background-image: url(./img/cid33491_winkelwagen-1_318-10653.jpg); background-position: center center; background-size: 115%;"class="project-widget">
             <div class="widget-side widget-front">
               <!-- Front side content -->
               <h3 class="project-title">YourSilence E-COM store</h3>
               <p class="project-description">Elevate your online shopping experience with this feature-rich eCommerce store, offering seamless payment options, AI-driven customer support, and flexible monthly payment plans.</p>
+              <p class="hoverMore">See More</p>
             </div>
             <div class="widget-side widget-back">
               <!-- Back side content -->
-              <p class="project-description-long">Discover a new level of online shopping with this expertly designed eCommerce store, tailored to meet the needs of both businesses and consumers. Our platform integrates smooth payment processing and multiple payment options, including secure monthly payment plans for added flexibility. Enhance customer experience with our innovative AI-driven support system that quickly responds to inquiries, providing real-time assistance for a seamless shopping journey. Trust our cutting-edge solution to elevate your brand and create a memorable online presence.</p>
+              <p class="project-description-long">Discover a new level of online shopping with this expertly designed eCommerce store, tailored to meet the needs of both businesses and consumers. Our platform integrates smooth payment processing and multiple payment options, including secure monthly payment plans for added flexibility. Enhance customer experience with our innovative AI-driven support system that quickly responds to inquiries, providing real-time assistance for a seamless shopping journey.</p>
+              <a href="https://www.yoursilence.nl" target="_blank"><button id="moreInfoBtn3">More Info</button></a>
+
             </div>
           </div>
-          <div class="project-widget">
+          <div style="background-image: url(./img/ef339ebb632f9e66d69483b6ddceacdc.png); background-position: center center; background-size: 120%;"class="project-widget">
             <div class="widget-side widget-front">
               <!-- Front side content -->
               <h3 class="project-title">Marketing App</h3>
               <p class="project-description">Effortlessly enhance your marketing with an intuitive app that resizes images, incorporates logos, highlights discounts, and embeds social icons, crafting compelling visuals for increased brand engagement.</p>
+              <p class="hoverMore">See More</p>
             </div>
             <div class="widget-side widget-back">
               <!-- Back side content -->
               <p class="project-description-long"></p>
+              <button id="moreInfoBtn">More Info</button>
             </div>
           </div>
-          <div class="project-widget">
+          <div style="background: url(./img/04c394481811471e9752d11f2241507c.png); background-size: 130%; background-position: center center;" class="project-widget">
             <div class="widget-side widget-front">
               <!-- Front side content -->
               <h3 class="project-title">MyNotes</h3>
               <p class="project-description">An eco-friendly e-ink tablet designed to revolutionize education by replacing traditional paper-based writing with a reusable, digital solution that enhances learning while reducing environmental impact.</p>
+              
             </div>
             <div class="widget-side widget-back">
               <!-- Back side content -->
               <p class="project-description-long">A more detailed description of the project.</p>
+              <button id="moreInfoBtn2">More Info</button>
+            </div>
+          </div>
+
+          <!-- Modal Ski -->
+          <div id="mySkiModal" class="modal">
+            <div class="modal-content">
+              <button id="closeBTNM">&times;</button>
+              <img src="./img/pi-tool.png" alt="My Image">
+            </div>
+          </div>
+
+          <!-- Modal Tracker-->
+          <div id="myTrackModal" class="modal">
+            <div class="modal-content">
+              <button id="closeBTNM3">&times;</button>
+              <div class="carousel1">
+                <img src="./img/tracker.png">
+                <img src="./img/tracker1.png">
+            
+              </div>
+            </div>
+          </div>
+
+          <div id="myNotesModal" class="modal">
+            <button id="closeBTNM2">&times;</button>
+            
+            <!-- Carousel MyNotes-->
+            <div class="carousel">
+              <img src="./img/myNote1.png">
+              <img src="./img/MyNote2.png">
+              <img src="./img/MyNote3.png">
+              <img src="./img/MyNote4.png">
+              <img src="./img/MyNote5.png">
             </div>
           </div>
         </div>
-      </section>
       <!-- Add your content here -->
     </section>
+    
     <section id="contact">
-      <h2>Contact Me</h2>
+      <h2>Get In Contact</h2>
       <!-- Add your content here -->
+      <div class="form-container">
+        <form action="send-mail.php" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
   <footer>
