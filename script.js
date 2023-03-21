@@ -57,22 +57,22 @@ closeBtn.onclick = function() {
 
 
 // Get the modal
-var modal = document.getElementById("myTrackModal");
+var modal3 = document.getElementById("myTrackModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("moreInfoBtn4");
+var btn3 = document.getElementById("moreInfoBtn4");
 
 // Get the <span> element that closes the modal
 var closeBtn = document.getElementById("closeBTNM3");
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+btn3.onclick = function() {
+  modal3.style.display = "block";
 };
 
 // When the user clicks on <span> (x), close the modal
 closeBtn.onclick = function() {
-  modal.style.display = "none";
+  modal3.style.display = "none";
 };
 
 

@@ -48,6 +48,10 @@ body {
   nav li {
     margin-left: 1rem;
   }
+
+  #marginfix {
+    margin-top: -90px;
+  }
   
   nav a {
     text-decoration: none;
@@ -75,10 +79,12 @@ body {
     justify-content: flex-start;
     padding: 2rem; /* Add padding to the top and left */
   }
+  #par2 {
+    margin-top: -22px;
+  }
   
   #welcome h1 {
-    
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 4rem; /* Adjust the font size */
     color: #141313; /* Set the text color to white or any color that contrasts with the background image */
     font-weight: bold; /* Make the text bold */
@@ -86,7 +92,9 @@ body {
     
   }
   #quote {
+    margin-left: 12px;
     border-bottom: 2px solid #1f323f;
+    
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     display: inline-flex; 
@@ -113,57 +121,208 @@ body {
   }
   /* About section styles */
   #about {
-   display: flex; 
-   flex-direction: row;
-   align-items: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
   }
-  #about p {
-    text-align: left;
-    margin-bottom: 0px;
-    margin-top: 0px;
 
-  }
-  .text-container {
-    /* Add your desired styles here */
-    width: 60%;
-
-  }
-  
   .about-content {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 1rem;
-    max-width: 1000px; /* Add a max-width to limit the width of the container */
-  
-}
-.about-wrapper {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .profile-picture {
+    flex: 0 0 250px;
+    margin-right: 3rem;
+  }
+
+  .profile-picture img {
+    
+    height: auto;
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .social-media-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  /* My Skills Section */ 
+  .skills-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-  max-width: 1000px;
- 
 }
-  
-  .about-text {
-    color: rgb(0, 0, 0);
-  }
-  
-  .profile-picture {
-    flex: 0 0 250px; /* Adjust the width of the profile picture container */
-    align-self: right;
+
+.skills-section {
+  width: 30%;
 }
-  
-  .profile-picture img {
-    
-    width: 250px;
-    height: 300px;
-    border-radius: 50%; /* Optional: to create a circular profile picture */
-  }
-  
+
+.skills-section h3 {
+  margin-bottom: 1rem;
+}
+
+.skills-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #777777;
+}
+
+.skills-section li .bar {
+  width: 75%;
+  height: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.skills-section li .bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.skills-section li .bar .python {
+  width: 80%;
+  background-color: #3776ab;
+}
+
+.skills-section li .bar .java {
+  width: 90%;
+  background-color: #007396;
+}
+
+.skills-section li .bar .html-css {
+  width: 90%;
+  background-color: #f06529;
+}
+
+.skills-section li .bar .xml {
+  width: 90%;
+  background-color: #ffa500;
+}
+
+.skills-section li .bar .javascript {
+  width: 70%;
+  background-color: #f0db4f;
+}
+
+.skills-section li .bar .react-redux {
+  width: 100%;
+  background-color: #61dbfb;
+}
+
+.skills-section li .bar .typescript {
+  width: 50%;
+  background-color: #007acc;
+}
+
+.skills-section li .bar .sql {
+  width: 90%;
+  background-color: #4169e1;
+}
+
+.skills-section li .bar .command-prompt {
+  width: 95%;
+  background-color: #000000;
+}
+
+.skills-section li .bar .prompting {
+  width: 50%;
+  background-color: #6f42c1;
+}
+
+.skills-section li .bar .swift {
+  width: 30%;
+  background-color: #ff5733;
+}
+
+.skills-section li .bar .c {
+  width: 85%;
+  background-color: #007396;
+}
+
+.skills-section li .bar .english {
+  width: 100%;
+  background-color: #007396;
+}
+
+.skills-section li .bar .german {
+  width: 80%;
+  background-color: #ff5733;
+}
+
+.skills-section li .bar .spanish {
+  width: 40%;
+  background-color: #ff5733;
+}
+
+.skills-section li .bar .dutch {
+  width: 100%;
+  background-color: #007436;
+}
+
+.skills-section li .bar .photoshop {
+  width: 80%;
+  background-color: #31a8ff;
+}
+
+.skills-section li .bar .video-editing {
+  width: 80%;
+  background-color: #ff5733;
+}
+
+.skills-section li .bar .djing {
+  width: 50%;
+  background-color: #000000;
+}
+
+.skills-section li .bar .bartending {
+  width: 100%;
+  background-color: #31a8ff;
+}
+
+.skills-section li .bar .ui-design {
+  width: 60%;
+  background-color: #6f42c1;
+}
+
+.skills-section li .bar .github {
+  width: 60%;
+  background-color: #6f42c1;
+}
+
+.skills-section li .bar .marketing {
+  width: 60%;
+  background-color: #6f42c1;
+}
 
   /* My Work Section */ 
   .project-widgets-container {
@@ -182,6 +341,7 @@ body {
   width: 300px;
   height: 400px;
   perspective: 1000px;
+  background-color: rgba(255, 255, 255, 20);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.12); /* Add the box-shadow */
   transition: box-shadow 0.3s ease; /* Add a transition for the box-shadow */
 }
