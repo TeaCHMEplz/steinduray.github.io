@@ -220,22 +220,27 @@ body {
 }
 
 .skills-section li .bar .html-css {
-  width: 90%;
+  width: 95%;
   background-color: #f06529;
 }
 
 .skills-section li .bar .xml {
-  width: 90%;
+  width: 100%;
   background-color: #ffa500;
 }
 
 .skills-section li .bar .javascript {
-  width: 70%;
+  width: 95%;
   background-color: #f0db4f;
 }
 
-.skills-section li .bar .react-redux {
-  width: 100%;
+.skills-section li .bar .react {
+  width: 80%;
+  background-color: #61dbfb;
+}
+
+.skills-section li .bar .redux {
+  width: 80%;
   background-color: #61dbfb;
 }
 
@@ -245,22 +250,22 @@ body {
 }
 
 .skills-section li .bar .sql {
-  width: 90%;
+  width: 70%;
   background-color: #4169e1;
 }
 
 .skills-section li .bar .command-prompt {
-  width: 95%;
+  width: 85%;
   background-color: #000000;
 }
 
 .skills-section li .bar .prompting {
-  width: 50%;
+  width: 95%;
   background-color: #6f42c1;
 }
 
 .skills-section li .bar .swift {
-  width: 30%;
+  width: 40%;
   background-color: #ff5733;
 }
 
@@ -275,7 +280,7 @@ body {
 }
 
 .skills-section li .bar .german {
-  width: 80%;
+  width: 65%;
   background-color: #ff5733;
 }
 
@@ -290,7 +295,12 @@ body {
 }
 
 .skills-section li .bar .photoshop {
-  width: 80%;
+  width: 90%;
+  background-color: #31a8ff;
+}
+
+.skills-section li .bar .logistics {
+  width: 90%;
   background-color: #31a8ff;
 }
 
@@ -300,27 +310,27 @@ body {
 }
 
 .skills-section li .bar .djing {
-  width: 50%;
+  width: 70%;
   background-color: #000000;
 }
 
 .skills-section li .bar .bartending {
-  width: 100%;
+  width: 85%;
   background-color: #31a8ff;
 }
 
 .skills-section li .bar .ui-design {
-  width: 60%;
+  width: 90%;
   background-color: #6f42c1;
 }
 
 .skills-section li .bar .github {
-  width: 60%;
+  width: 90%;
   background-color: #6f42c1;
 }
 
 .skills-section li .bar .marketing {
-  width: 60%;
+  width: 85%;
   background-color: #6f42c1;
 }
 
