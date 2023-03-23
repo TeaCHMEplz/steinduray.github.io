@@ -80,7 +80,7 @@ body {
     padding: 2rem; /* Add padding to the top and left */
   }
   #par2 {
-    margin-top: -22px;
+    margin-top: -24px;
   }
   
   #welcome h1 {
@@ -216,7 +216,7 @@ body {
 
 .skills-section li .bar .java {
   width: 90%;
-  background-color: #007396;
+  background-color: #4f6066;
 }
 
 .skills-section li .bar .html-css {
@@ -241,7 +241,7 @@ body {
 
 .skills-section li .bar .redux {
   width: 80%;
-  background-color: #61dbfb;
+  background-color: #803098;
 }
 
 .skills-section li .bar .typescript {
@@ -251,7 +251,7 @@ body {
 
 .skills-section li .bar .sql {
   width: 70%;
-  background-color: #4169e1;
+  background-color: #05123b;
 }
 
 .skills-section li .bar .command-prompt {
@@ -281,7 +281,7 @@ body {
 
 .skills-section li .bar .german {
   width: 65%;
-  background-color: #ff5733;
+  background-color: #ac2471;
 }
 
 .skills-section li .bar .spanish {
@@ -301,7 +301,7 @@ body {
 
 .skills-section li .bar .logistics {
   width: 90%;
-  background-color: #31a8ff;
+  background-color: #ffd000;
 }
 
 .skills-section li .bar .video-editing {
@@ -326,12 +326,12 @@ body {
 
 .skills-section li .bar .github {
   width: 90%;
-  background-color: #6f42c1;
+  background-color: #41674e;
 }
 
 .skills-section li .bar .marketing {
   width: 85%;
-  background-color: #6f42c1;
+  background-color: #ba830c;
 }
 
   /* My Work Section */ 
@@ -476,18 +476,36 @@ body {
   
   /* Contact Me */
   #contact {
+    display: flex; 
     background-color: #f8f8f8;
     padding: 30px;
-    text-align: center;
+    text-align: left;
+    flex-wrap: wrap;
   }
   
   #contact h2 {
     margin-bottom: 30px;
   }
+
+
   
   .form-container {
-    max-width: 600px;
-    margin: 0 auto;
+    width: 50px;
+    flex: 1; /* Added */
+    margin-right: 50px; /* Added */
+    margin-left: -120px;
+    margin-top: 100px;
+    box-sizing: border-box;
+  }
+
+  .contact-details {
+    width: 600px;
+  }
+     
+  .contact-details iframe {
+    width: 100%; /* Added */
+    height: 450px; /* Added */
+    border: none; /* Added */
   }
   
   .form-group {
@@ -502,7 +520,7 @@ body {
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -515,7 +533,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #3498db;
+    background-color: #40e934;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -525,7 +543,7 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #2980b9;
+    background-color: #1faa2f;
   }
 
 
