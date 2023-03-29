@@ -1,4 +1,5 @@
 /* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +9,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
+    position: relative;
+    background-image: url('./img/achtergrondwelcome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
   }
+  
+
+
 
 
   /* Header styles */
@@ -19,10 +28,9 @@ body {
     align-items: center;
     background-color: transparent;
     padding: 1rem;
-    
     position: sticky;
     top: 0;
-    z-index: 8;
+    z-index: 1;
   }
   .nav-text {
     font-size: 20px;  
@@ -70,10 +78,7 @@ body {
 /* Add the styles for the welcome section */
 #welcome {
     height: 75vh; /* Set the height to fill the viewport */
-    background-image: url('./img/achtergrondwelcome.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -107,7 +112,7 @@ body {
     padding: 2rem;
     max-width: 100%;
     background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent white background */
-
+    z-index: 1;
   }
   
   section {
@@ -130,6 +135,7 @@ body {
   }
 
   .about-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Use an RGBA color value for a transparent white background */
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -394,6 +400,7 @@ body {
     height: 100%; /* Set the height to 100% */
     width: 100%;
   }
+  
   
   .project-widget:hover .widget-side {
     cursor: pointer;
