@@ -118,65 +118,54 @@ body {
   
   /* About section styles */
   #about {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+
+    margin-top: -200px;
     max-width: 1000px;
-    margin: auto;
+    
 
   }
 
   .about-content {
-   
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 1rem;
+    display: flex; /* Add this line */
+    flex-wrap: wrap; /* Add this line */
+    justify-content: space-between; /* Add this line */
+    margin-left: 70px;
     max-width: 100%;
-    margin-bottom: 1rem;
-    margin-top: -200px;
-    margin-right: 450px;
-    margin-left: -150px;  
-  }
 
-  .profile-picture {
-    flex: 0 0 250px;
-    margin-right: 3rem;
   }
-
-  .profile-picture img {
-    
-    height: auto;
-    border-radius: 50%;
-    height: 300px;
-    width: 250px;
-  }
-
+ 
   .about-text {
-    
-    flex: 1;
-    background-color: rgba(20, 20, 20, 0.4);
-    border-radius: 20px 20px 10px 10px;
+    background-color: rgba(20, 20, 20, 0.2);
+    border-radius: 20px 20px 20px 20px;
     padding: 10px;
-   
+    float: left; 
+    margin-right: 20px;
+    max-width: calc(100% - 320px); /* adjust the width according to your needs */
   }
+  
 
   .about-text p {
     text-align: center;
    /* text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 1); */
-    color: white;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
   }
 
   .social-media-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap; /* Add this line */
+    justify-content: center;
+    
+    flex-wrap: wrap; /* Add this line */
+    margin-top: 20px; /* Add this line */
+    max-width: 100%; /* Add this line */
   }
+  .social-media-container a {
+    margin: 0 10px; /* Add this line */
+    }
   
   /* My Skills Section */ 
   .skills-container {
+  opacity: 0.8;  
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -185,7 +174,8 @@ body {
 }
 
 .skills-section {
-  width: 30%;
+  margin-top: 15px;
+  width: 15%;
   background-color: rgba(245, 245, 245, 0.9);
   border-radius: 20px 20px 10px 10px;
   padding: 10px;
@@ -213,7 +203,7 @@ body {
 }
 
 .skills-section li .bar {
-  width: 75%;
+  width: 35%;
   height: 10px;
   background-color: #e6e6e6;
   border-radius: 5px;
@@ -229,70 +219,6 @@ body {
   border-radius: 5px;
 }
 
-.skills-section li .bar .python {
-  width: 80%;
-  background-color: #3776ab;
-}
-
-.skills-section li .bar .java {
-  width: 90%;
-  background-color: #4f6066;
-}
-
-.skills-section li .bar .html-css {
-  width: 95%;
-  background-color: #f06529;
-}
-
-.skills-section li .bar .xml {
-  width: 100%;
-  background-color: #ffa500;
-}
-
-.skills-section li .bar .javascript {
-  width: 95%;
-  background-color: #f0db4f;
-}
-
-.skills-section li .bar .react {
-  width: 80%;
-  background-color: #61dbfb;
-}
-
-.skills-section li .bar .redux {
-  width: 80%;
-  background-color: #803098;
-}
-
-.skills-section li .bar .typescript {
-  width: 50%;
-  background-color: #007acc;
-}
-
-.skills-section li .bar .sql {
-  width: 70%;
-  background-color: #05123b;
-}
-
-.skills-section li .bar .command-prompt {
-  width: 85%;
-  background-color: #000000;
-}
-
-.skills-section li .bar .prompting {
-  width: 95%;
-  background-color: #6f42c1;
-}
-
-.skills-section li .bar .swift {
-  width: 40%;
-  background-color: #ff5733;
-}
-
-.skills-section li .bar .c {
-  width: 85%;
-  background-color: #007396;
-}
 
 .skills-section li .bar .english {
   width: 100%;
@@ -336,7 +262,7 @@ body {
 
 .skills-section li .bar .bartending {
   width: 85%;
-  background-color: #31a8ff;
+  background-color: #b6b6b6;
 }
 
 .skills-section li .bar .ui-design {
