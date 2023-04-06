@@ -49,9 +49,19 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .initials {
+    margin-top: -40px;
+    margin-left: 30px;
+  }
   
   nav li {
     margin-left: 1rem;
+  }
+  #marginfix2{
+    margin-top: -90px;
+    margin-left: 20px;
+    
   }
 
   #marginfix {
@@ -72,14 +82,14 @@ body {
   }
   
   /* Main content styles */
-/* Add the styles for the welcome section */
+
 #welcome {
-    height: 75vh; /* Set the height to fill the viewport */
+    height: 75vh; 
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 2rem; /* Add padding to the top and left */
+    padding: 2rem; 
   }
   #par2 {
     margin-top: -24px;
@@ -87,10 +97,10 @@ body {
   
   #welcome h1 {
     margin-left: 10px;
-    font-size: 4rem; /* Adjust the font size */
-    color: #141313; /* Set the text color to white or any color that contrasts with the background image */
-    font-weight: bold; /* Make the text bold */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+    font-size: 4rem; 
+    color: #000000; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     
   }
   #quote {
@@ -100,7 +110,7 @@ body {
     padding-bottom: 0.5rem;
     margin-bottom: 1re  m;
     display: inline-flex; 
-    width: 400px;  /*line width and text */
+    width: 400px;  
     margin-top: -1.8rem;
   }
 
@@ -108,7 +118,7 @@ body {
   main {
     padding: 2rem;
     max-width: 100%;
-    background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0); 
     z-index: 1;
   }
   
@@ -126,27 +136,28 @@ body {
   }
 
   .about-content {
-    display: flex; /* Add this line */
-    flex-wrap: wrap; /* Add this line */
-    justify-content: space-between; /* Add this line */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     margin-left: 70px;
     max-width: 100%;
 
   }
  
   .about-text {
-    background-color: rgba(20, 20, 20, 0.2);
-    border-radius: 20px 20px 20px 20px;
     padding: 10px;
+    background-color: rgba(235, 232, 232, 0.8);
+    border-radius: 20px 20px 20px 20px;
+    
     float: left; 
     margin-right: 20px;
-    max-width: calc(100% - 320px); /* adjust the width according to your needs */
+    max-width: calc(100% - 320px); 
   }
   
 
   .about-text p {
     text-align: center;
-   /* text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 1); */
+ 
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
   }
@@ -155,12 +166,12 @@ body {
     display: flex;
     justify-content: center;
     
-    flex-wrap: wrap; /* Add this line */
-    margin-top: 20px; /* Add this line */
-    max-width: 100%; /* Add this line */
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+    max-width: 100%; 
   }
   .social-media-container a {
-    margin: 0 10px; /* Add this line */
+    margin: 0 10px; 
     }
   
   /* My Skills Section */ 
@@ -280,7 +291,7 @@ body {
   background-color: #ba830c;
 }
 
-  /* My Work Section */ 
+
   .project-widgets-container {
     display: flex;
     flex-wrap: wrap;
@@ -302,8 +313,8 @@ body {
   height: 400px;
   perspective: 1000px;
   background-color: rgba(255, 255, 255, 20);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.12); /* Add the box-shadow */
-  transition: box-shadow 0.3s ease; /* Add a transition for the box-shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.12); 
+  transition: box-shadow 0.3s ease; 
 }
 
   .widget-side {
@@ -314,13 +325,13 @@ body {
     backface-visibility: hidden;
     transition: transform 0.5s, opacity 0.5s;
     transform-style: preserve-3d;
-    border-radius: 30px; /* Add border-radius to make the corners rounded */
+    border-radius: 30px; 
   
   }
   
   .widget-front {
     background-color: #fff;
-    /* Add any other styles for the front side */
+
     border-radius: 30px; 
   }
   .project-title {
@@ -334,14 +345,14 @@ body {
   
   .widget-back {
     background-color: #eee;
-    /* Add any other styles for the back side */
+
     transform: rotateY(180deg);
     opacity: 0;
     border-radius: 30px; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100%; /* Set the height to 100% */
+    height: 100%; 
     width: 100%;
   }
   
@@ -441,8 +452,8 @@ body {
   
   .form-container {
     width: 300px;
-    flex: 1; /* Added */
-    margin-right: 50px; /* Added */
+    flex: 1;
+    margin-right: 50px; 
     margin-left: -120px;
     margin-top: 100px;
     box-sizing: border-box;
@@ -461,9 +472,9 @@ body {
 
      
   .contact-details iframe {
-    width: 100%; /* Added */
-    height: 450px; /* Added */
-    border: none; /* Added */
+    width: 100%; 
+    height: 450px;
+    border: none; 
   }
   
   .form-group {
