@@ -488,18 +488,36 @@ body {
     background-color: rgba(235, 230, 230, 0.9);
     padding: 10px;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 450px auto;
+    grid-template-areas:
+      "basedfrom basedfrom"
+      "map map"
+      "mailtel address";
   }
-
-  .contact-details p {
+  
+  .contact-details h3 {
+    grid-area: basedfrom;
+  }
+  
+  .contact-details iframe {
+    grid-area: map;
+    width: 100%;
+    height: 450px;
+    border: none;
+  }
+  
+  #mail, #tel {
+    grid-area: mailtel;
+    text-align: left;
+  }
+  
+  .contact-details address {
+    grid-area: address;
     text-align: right;
   }
-
-     
-  .contact-details iframe {
-    width: 100%; 
-    height: 450px;
-    border: none; 
-  }
+  
   
   .form-group {
     margin-bottom: 20px;
